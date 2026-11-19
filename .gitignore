@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & OS
+.DS_Store
+*/.DS_Store
+.vscode/
+.idea/
+Library/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+.streamlit/credentials.toml
+
+# Builds & Binaries
+build/
+dist/
+*.spec
+bin/
+*.db-shm
+*.db-wal

@@ -1,0 +1,36 @@
+product_id,product_name,category,supplier_id,purchase_price,selling_price,stock_quantity,minimum_stock,expiry_date
+PRD-0001,Organic Arabica Dark Roast Coffee 1lb,Beverages,SUP-001,6.50,12.99,127,15,2027-03-04
+PRD-0002,Sparkling Spring Water 500ml 12pk,Beverages,SUP-001,4.20,8.49,154,20,2027-11-04
+PRD-0003,Cold Brew Black Coffee Can 250ml,Beverages,SUP-001,1.40,2.99,115,10,2026-12-19
+PRD-0004,Matcha Green Tea Extract 100g,Beverages,SUP-001,9.00,17.50,96,8,2027-05-03
+PRD-0005,Whole Milk Grass-Fed 1 Gallon,Dairy & Eggs,SUP-002,2.60,4.89,8,10,2026-11-09
+PRD-0006,Pasture-Raised Grade A Large Eggs 12pk,Dairy & Eggs,SUP-002,3.10,5.99,116,12,2026-11-18
+PRD-0007,Greek Yogurt Plain 32oz,Dairy & Eggs,SUP-002,2.80,5.49,106,10,2026-11-10
+PRD-0008,Aged Sharp Cheddar Cheese Block 8oz,Dairy & Eggs,SUP-002,3.20,6.25,123,15,2027-01-03
+PRD-0009,Artisan Sourdough Boule 500g,Bakery,SUP-003,2.10,4.99,88,8,2026-11-02
+PRD-0010,Multi-Grain Sandwich Bread 20oz,Bakery,SUP-003,1.80,3.79,8,10,2026-11-08
+PRD-0011,Brioche Burger Buns 6pk,Bakery,SUP-003,2.20,4.49,101,8,2026-11-12
+PRD-0012,Organic Honey Crisp Apples 3lb Bag,Fresh Produce,SUP-004,3.50,6.99,125,15,2026-11-22
+PRD-0013,Baby Spinach Salad Tub 16oz,Fresh Produce,SUP-004,2.00,4.29,97,10,2026-11-03
+PRD-0014,Organic Hass Avocados 4pk,Fresh Produce,SUP-004,2.90,5.79,98,10,2026-11-14
+PRD-0015,Extra Virgin Olive Oil Cold Pressed 750ml,Pantry,SUP-005,7.50,14.99,119,12,2027-08-31
+PRD-0016,Basmati Rice Aged Reserve 5lb,Pantry,SUP-005,5.20,10.49,83,20,2028-01-28
+PRD-0017,Organic Whole Peeled Tomatoes 28oz,Pantry,SUP-005,1.60,3.29,113,25,2027-12-09
+PRD-0018,Natural Tea Tree Shampoo 16oz,Personal Care,SUP-006,4.50,9.99,61,10,2028-06-26
+PRD-0019,Moisturizing Shea Butter Body Lotion 12oz,Personal Care,SUP-006,5.00,11.49,64,10,2028-03-18
+PRD-0020,Gentle Hydrating Facial Cleanser 8oz,Personal Care,SUP-006,6.20,13.99,57,8,2028-02-27
+PRD-0021,Dark Chocolate Almond Bark 7oz,Snacks & Confectionery,SUP-007,2.40,5.19,90,15,2027-04-03
+PRD-0022,Kettle Cooked Sea Salt Chips 8oz,Snacks & Confectionery,SUP-007,1.70,3.99,95,20,2027-02-02
+PRD-0023,Gourmet Roasted Pistachios Salted 12oz,Snacks & Confectionery,SUP-007,4.80,9.89,73,12,2027-05-03
+PRD-0024,Immunity Boost Vitamin C Gummies 90ct,Health & Wellness,SUP-008,5.50,12.49,60,10,2027-07-12
+PRD-0025,Plant-Based Protein Powder Vanilla 2lb,Health & Wellness,SUP-008,14.00,29.99,56,8,2027-08-31
+PRD-0026,Daily Probiotic Multivitamin 60ct,Health & Wellness,SUP-008,8.50,18.99,67,10,2027-06-02
+PRD-0027,Frozen Wild Pacific Salmon Fillets 1lb,Frozen Foods,SUP-009,7.80,14.99,47,8,2027-03-04
+PRD-0028,Organic Frozen Berry Medley 2lb,Frozen Foods,SUP-009,4.20,8.79,62,10,2027-05-23
+PRD-0029,Stone Ground Whole Wheat Flour 5lb,Pantry,SUP-010,3.10,6.49,74,15,2027-07-02
+PRD-0030,Organic Rolled Oats Tub 42oz,Pantry,SUP-010,2.70,5.89,72,15,2027-08-01
+PRD-0031,Smoked Atlantic Salmon Lox 8oz,Meat & Deli,SUP-011,6.80,13.50,3,5,2026-11-24
+PRD-0032,Artisan Prosciutto Di Parma 4oz,Meat & Deli,SUP-011,4.20,8.99,47,6,2026-11-29
+PRD-0033,Concentrated Eco Dish Soap 32oz,Household,SUP-012,2.30,4.99,86,15,2028-10-24
+PRD-0034,Bamboo Fiber Paper Towels 6pk,Household,SUP-012,5.00,10.99,74,12,2029-07-31
+PRD-0035,Plant-Based Laundry Detergent 64oz,Household,SUP-012,6.00,13.49,58,10,2028-10-24

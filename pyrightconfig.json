@@ -1,0 +1,26 @@
+{
+  "include": [
+    "store_management_system",
+    "main.py"
+  ],
+  "exclude": [
+    "**/__pycache__",
+    ".pytest_cache",
+    ".venv",
+    "store_management_system/build",
+    "store_management_system/dist"
+  ],
+  "extraPaths": [
+    "store_management_system"
+  ],
+  "venvPath": ".",
+  "venv": ".venv",
+  "executionEnvironments": [
+    {
+      "root": "store_management_system",
+      "extraPaths": [
+        "."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+supplier_id,supplier_name,contact_number,email,address,product_category
+SUP-001,Apex Beverage Distributors,+1-555-0101,orders@apexbeverage.com,"101 Industrial Parkway, Seattle, WA",Beverages
+SUP-002,Golden Dairy Farms Co.,+1-555-0102,contact@goldendairy.com,"240 Farmview Road, Madison, WI",Dairy & Eggs
+SUP-003,Artisan Hearth Bakery Supplies,+1-555-0103,sales@artisanhearth.com,"55 Flour Mill Way, Portland, OR",Bakery
+SUP-004,Valley Harvest Organics,+1-555-0104,supply@valleyharvest.org,"780 Orchard Lane, Fresno, CA",Fresh Produce
+SUP-005,Global Pantry Imports LLC,+1-555-0105,info@globalpantry.com,"400 Harbor Blvd, Long Beach, CA",Pantry
+SUP-006,PureBotanicals Personal Care,+1-555-0106,wholesale@purebotanicals.com,"12 Wellness Drive, Denver, CO",Personal Care
+SUP-007,SweetTreats Confectionery,+1-555-0107,orders@sweettreats.net,"88 Cocoa Plaza, Hershey, PA",Snacks & Confectionery
+SUP-008,Vitality Health & Nutrition,+1-555-0108,sales@vitalityhealth.com,"300 BioPark Blvd, Austin, TX",Health & Wellness
+SUP-009,Cascade Frozen Foods Ltd,+1-555-0109,logistics@cascadefrozen.com,"92 Glacier Way, Boise, ID",Frozen Foods
+SUP-010,Heritage Grain & Spice Co.,+1-555-0110,contact@heritagegrain.com,"64 Meadow Brook Rd, Omaha, NE",Pantry
+SUP-011,Nordic Seafood & Deli,+1-555-0111,accounts@nordicseafood.com,"15 Pier 4, Boston, MA",Meat & Deli
+SUP-012,GreenLife Eco Household,+1-555-0112,support@greenlifeeco.com,"500 Recycle Ave, Minneapolis, MN",Household

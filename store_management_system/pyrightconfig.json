@@ -1,0 +1,16 @@
+{
+  "include": [
+    "."
+  ],
+  "exclude": [
+    "**/__pycache__",
+    ".pytest_cache",
+    "build",
+    "dist"
+  ],
+  "extraPaths": [
+    "."
+  ],
+  "venvPath": "..",
+  "venv": ".venv"
+}

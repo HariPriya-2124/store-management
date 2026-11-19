@@ -1,0 +1,130 @@
+movement_id,product_id,movement_date,movement_type,quantity_change,notes
+MOV-5001,PRD-0001,2026-08-31,INITIAL_STOCK,90,Opening store inventory count
+MOV-5002,PRD-0002,2026-08-31,INITIAL_STOCK,115,Opening store inventory count
+MOV-5003,PRD-0003,2026-08-31,INITIAL_STOCK,80,Opening store inventory count
+MOV-5004,PRD-0004,2026-08-31,INITIAL_STOCK,65,Opening store inventory count
+MOV-5005,PRD-0005,2026-08-31,INITIAL_STOCK,70,Opening store inventory count
+MOV-5006,PRD-0006,2026-08-31,INITIAL_STOCK,75,Opening store inventory count
+MOV-5007,PRD-0007,2026-08-31,INITIAL_STOCK,68,Opening store inventory count
+MOV-5008,PRD-0008,2026-08-31,INITIAL_STOCK,85,Opening store inventory count
+MOV-5009,PRD-0009,2026-08-31,INITIAL_STOCK,60,Opening store inventory count
+MOV-5010,PRD-0010,2026-08-31,INITIAL_STOCK,64,Opening store inventory count
+MOV-5011,PRD-0011,2026-08-31,INITIAL_STOCK,58,Opening store inventory count
+MOV-5012,PRD-0012,2026-08-31,INITIAL_STOCK,80,Opening store inventory count
+MOV-5013,PRD-0013,2026-08-31,INITIAL_STOCK,62,Opening store inventory count
+MOV-5014,PRD-0014,2026-08-31,INITIAL_STOCK,70,Opening store inventory count
+MOV-5015,PRD-0015,2026-08-31,INITIAL_STOCK,85,Opening store inventory count
+MOV-5016,PRD-0016,2026-08-31,INITIAL_STOCK,100,Opening store inventory count
+MOV-5017,PRD-0017,2026-08-31,INITIAL_STOCK,120,Opening store inventory count
+MOV-5018,PRD-0018,2026-08-31,INITIAL_STOCK,75,Opening store inventory count
+MOV-5019,PRD-0019,2026-08-31,INITIAL_STOCK,70,Opening store inventory count
+MOV-5020,PRD-0020,2026-08-31,INITIAL_STOCK,68,Opening store inventory count
+MOV-5021,PRD-0021,2026-08-31,INITIAL_STOCK,90,Opening store inventory count
+MOV-5022,PRD-0022,2026-08-31,INITIAL_STOCK,105,Opening store inventory count
+MOV-5023,PRD-0023,2026-08-31,INITIAL_STOCK,80,Opening store inventory count
+MOV-5024,PRD-0024,2026-08-31,INITIAL_STOCK,78,Opening store inventory count
+MOV-5025,PRD-0025,2026-08-31,INITIAL_STOCK,65,Opening store inventory count
+MOV-5026,PRD-0026,2026-08-31,INITIAL_STOCK,72,Opening store inventory count
+MOV-5027,PRD-0027,2026-08-31,INITIAL_STOCK,60,Opening store inventory count
+MOV-5028,PRD-0028,2026-08-31,INITIAL_STOCK,75,Opening store inventory count
+MOV-5029,PRD-0029,2026-08-31,INITIAL_STOCK,80,Opening store inventory count
+MOV-5030,PRD-0030,2026-08-31,INITIAL_STOCK,85,Opening store inventory count
+MOV-5031,PRD-0031,2026-08-31,INITIAL_STOCK,52,Opening store inventory count
+MOV-5032,PRD-0032,2026-08-31,INITIAL_STOCK,55,Opening store inventory count
+MOV-5033,PRD-0033,2026-08-31,INITIAL_STOCK,90,Opening store inventory count
+MOV-5034,PRD-0034,2026-08-31,INITIAL_STOCK,82,Opening store inventory count
+MOV-5035,PRD-0035,2026-08-31,INITIAL_STOCK,70,Opening store inventory count
+MOV-5036,PRD-0001,2026-10-05,PURCHASE_RECEIPT,15,Restocking delivery from supplier SUP-001
+MOV-5037,PRD-0002,2026-10-05,PURCHASE_RECEIPT,20,Restocking delivery from supplier SUP-001
+MOV-5038,PRD-0003,2026-10-05,PURCHASE_RECEIPT,25,Restocking delivery from supplier SUP-001
+MOV-5039,PRD-0004,2026-10-05,PURCHASE_RECEIPT,28,Restocking delivery from supplier SUP-001
+MOV-5040,PRD-0005,2026-10-05,PURCHASE_RECEIPT,22,Restocking delivery from supplier SUP-002
+MOV-5041,PRD-0006,2026-10-05,PURCHASE_RECEIPT,23,Restocking delivery from supplier SUP-002
+MOV-5042,PRD-0007,2026-10-05,PURCHASE_RECEIPT,20,Restocking delivery from supplier SUP-002
+MOV-5043,PRD-0008,2026-10-05,PURCHASE_RECEIPT,18,Restocking delivery from supplier SUP-002
+MOV-5044,PRD-0009,2026-10-05,PURCHASE_RECEIPT,27,Restocking delivery from supplier SUP-003
+MOV-5045,PRD-0010,2026-10-05,PURCHASE_RECEIPT,16,Restocking delivery from supplier SUP-003
+MOV-5046,PRD-0011,2026-10-05,PURCHASE_RECEIPT,30,Restocking delivery from supplier SUP-003
+MOV-5047,PRD-0012,2026-10-05,PURCHASE_RECEIPT,22,Restocking delivery from supplier SUP-004
+MOV-5048,PRD-0013,2026-10-05,PURCHASE_RECEIPT,21,Restocking delivery from supplier SUP-004
+MOV-5049,PRD-0014,2026-10-05,PURCHASE_RECEIPT,29,Restocking delivery from supplier SUP-004
+MOV-5050,PRD-0015,2026-10-05,PURCHASE_RECEIPT,26,Restocking delivery from supplier SUP-005
+MOV-5051,PRD-0001,2026-10-20,PURCHASE_RECEIPT,24,Restocking delivery from supplier SUP-001
+MOV-5052,PRD-0002,2026-10-20,PURCHASE_RECEIPT,22,Restocking delivery from supplier SUP-001
+MOV-5053,PRD-0003,2026-10-20,PURCHASE_RECEIPT,22,Restocking delivery from supplier SUP-001
+MOV-5054,PRD-0004,2026-10-20,PURCHASE_RECEIPT,15,Restocking delivery from supplier SUP-001
+MOV-5055,PRD-0005,2026-10-20,PURCHASE_RECEIPT,21,Restocking delivery from supplier SUP-002
+MOV-5056,PRD-0006,2026-10-20,PURCHASE_RECEIPT,27,Restocking delivery from supplier SUP-002
+MOV-5057,PRD-0007,2026-10-20,PURCHASE_RECEIPT,25,Restocking delivery from supplier SUP-002
+MOV-5058,PRD-0008,2026-10-20,PURCHASE_RECEIPT,23,Restocking delivery from supplier SUP-002
+MOV-5059,PRD-0009,2026-10-20,PURCHASE_RECEIPT,17,Restocking delivery from supplier SUP-003
+MOV-5060,PRD-0010,2026-10-20,PURCHASE_RECEIPT,23,Restocking delivery from supplier SUP-003
+MOV-5061,PRD-0011,2026-10-20,PURCHASE_RECEIPT,26,Restocking delivery from supplier SUP-003
+MOV-5062,PRD-0012,2026-10-20,PURCHASE_RECEIPT,27,Restocking delivery from supplier SUP-004
+MOV-5063,PRD-0013,2026-10-20,PURCHASE_RECEIPT,25,Restocking delivery from supplier SUP-004
+MOV-5064,PRD-0014,2026-10-20,PURCHASE_RECEIPT,15,Restocking delivery from supplier SUP-004
+MOV-5065,PRD-0015,2026-10-20,PURCHASE_RECEIPT,18,Restocking delivery from supplier SUP-005
+MOV-5066,PRD-0002,2026-09-05,SALE,-3,Customer POS checkout - Transaction TXN-1001
+MOV-5067,PRD-0015,2026-09-06,SALE,-2,Customer POS checkout - Transaction TXN-1002
+MOV-5068,PRD-0007,2026-09-06,SALE,-1,Customer POS checkout - Transaction TXN-1003
+MOV-5069,PRD-0003,2026-09-07,SALE,-1,Customer POS checkout - Transaction TXN-1004
+MOV-5070,PRD-0006,2026-09-07,SALE,-2,Customer POS checkout - Transaction TXN-1005
+MOV-5071,PRD-0015,2026-09-07,SALE,-1,Customer POS checkout - Transaction TXN-1006
+MOV-5072,PRD-0013,2026-09-07,SALE,-4,Customer POS checkout - Transaction TXN-1007
+MOV-5073,PRD-0029,2026-09-08,SALE,-3,Customer POS checkout - Transaction TXN-1008
+MOV-5074,PRD-0001,2026-09-08,SALE,-2,Customer POS checkout - Transaction TXN-1009
+MOV-5075,PRD-0022,2026-09-09,SALE,-3,Customer POS checkout - Transaction TXN-1010
+MOV-5076,PRD-0010,2026-09-09,SALE,-2,Customer POS checkout - Transaction TXN-1011
+MOV-5077,PRD-0022,2026-09-09,SALE,-1,Customer POS checkout - Transaction TXN-1012
+MOV-5078,PRD-0006,2026-09-09,SALE,-4,Customer POS checkout - Transaction TXN-1013
+MOV-5079,PRD-0023,2026-09-10,SALE,-3,Customer POS checkout - Transaction TXN-1014
+MOV-5080,PRD-0003,2026-09-11,SALE,-4,Customer POS checkout - Transaction TXN-1015
+MOV-5081,PRD-0035,2026-09-11,SALE,-1,Customer POS checkout - Transaction TXN-1016
+MOV-5082,PRD-0025,2026-09-11,SALE,-1,Customer POS checkout - Transaction TXN-1017
+MOV-5083,PRD-0024,2026-09-12,SALE,-2,Customer POS checkout - Transaction TXN-1018
+MOV-5084,PRD-0005,2026-09-12,SALE,-1,Customer POS checkout - Transaction TXN-1019
+MOV-5085,PRD-0015,2026-09-12,SALE,-3,Customer POS checkout - Transaction TXN-1020
+MOV-5086,PRD-0015,2026-09-13,SALE,-1,Customer POS checkout - Transaction TXN-1021
+MOV-5087,PRD-0018,2026-09-14,SALE,-4,Customer POS checkout - Transaction TXN-1022
+MOV-5088,PRD-0024,2026-09-14,SALE,-2,Customer POS checkout - Transaction TXN-1023
+MOV-5089,PRD-0024,2026-09-14,SALE,-3,Customer POS checkout - Transaction TXN-1024
+MOV-5090,PRD-0014,2026-09-14,SALE,-3,Customer POS checkout - Transaction TXN-1025
+MOV-5091,PRD-0011,2026-09-15,SALE,-2,Customer POS checkout - Transaction TXN-1026
+MOV-5092,PRD-0030,2026-09-16,SALE,-4,Customer POS checkout - Transaction TXN-1027
+MOV-5093,PRD-0018,2026-09-16,SALE,-2,Customer POS checkout - Transaction TXN-1028
+MOV-5094,PRD-0004,2026-09-17,SALE,-2,Customer POS checkout - Transaction TXN-1029
+MOV-5095,PRD-0003,2026-09-17,SALE,-3,Customer POS checkout - Transaction TXN-1030
+MOV-5096,PRD-0026,2026-09-17,SALE,-3,Customer POS checkout - Transaction TXN-1031
+MOV-5097,PRD-0014,2026-09-18,SALE,-3,Customer POS checkout - Transaction TXN-1032
+MOV-5098,PRD-0032,2026-09-19,SALE,-4,Customer POS checkout - Transaction TXN-1033
+MOV-5099,PRD-0030,2026-09-19,SALE,-2,Customer POS checkout - Transaction TXN-1034
+MOV-5100,PRD-0009,2026-09-20,SALE,-2,Customer POS checkout - Transaction TXN-1035
+MOV-5101,PRD-0035,2026-09-20,SALE,-3,Customer POS checkout - Transaction TXN-1036
+MOV-5102,PRD-0028,2026-09-20,SALE,-4,Customer POS checkout - Transaction TXN-1037
+MOV-5103,PRD-0015,2026-09-21,SALE,-2,Customer POS checkout - Transaction TXN-1038
+MOV-5104,PRD-0033,2026-09-21,SALE,-4,Customer POS checkout - Transaction TXN-1039
+MOV-5105,PRD-0006,2026-09-21,SALE,-1,Customer POS checkout - Transaction TXN-1040
+MOV-5106,PRD-0010,2026-09-22,SALE,-2,Customer POS checkout - Transaction TXN-1041
+MOV-5107,PRD-0005,2026-09-23,SALE,-4,Customer POS checkout - Transaction TXN-1042
+MOV-5108,PRD-0025,2026-09-23,SALE,-4,Customer POS checkout - Transaction TXN-1043
+MOV-5109,PRD-0034,2026-09-23,SALE,-3,Customer POS checkout - Transaction TXN-1044
+MOV-5110,PRD-0001,2026-09-23,SALE,-1,Customer POS checkout - Transaction TXN-1045
+MOV-5111,PRD-0022,2026-09-24,SALE,-1,Customer POS checkout - Transaction TXN-1046
+MOV-5112,PRD-0019,2026-09-24,SALE,-4,Customer POS checkout - Transaction TXN-1047
+MOV-5113,PRD-0011,2026-09-24,SALE,-4,Customer POS checkout - Transaction TXN-1048
+MOV-5114,PRD-0017,2026-09-25,SALE,-2,Customer POS checkout - Transaction TXN-1049
+MOV-5115,PRD-0020,2026-09-26,SALE,-2,Customer POS checkout - Transaction TXN-1050
+MOV-5116,PRD-0024,2026-09-27,SALE,-2,Customer POS checkout - Transaction TXN-1051
+MOV-5117,PRD-0035,2026-09-27,SALE,-1,Customer POS checkout - Transaction TXN-1052
+MOV-5118,PRD-0032,2026-09-28,SALE,-1,Customer POS checkout - Transaction TXN-1053
+MOV-5119,PRD-0008,2026-09-28,SALE,-3,Customer POS checkout - Transaction TXN-1054
+MOV-5120,PRD-0020,2026-09-28,SALE,-2,Customer POS checkout - Transaction TXN-1055
+MOV-5121,PRD-0016,2026-09-29,SALE,-1,Customer POS checkout - Transaction TXN-1056
+MOV-5122,PRD-0032,2026-09-30,SALE,-1,Customer POS checkout - Transaction TXN-1057
+MOV-5123,PRD-0009,2026-10-01,SALE,-4,Customer POS checkout - Transaction TXN-1058
+MOV-5124,PRD-0011,2026-10-01,SALE,-3,Customer POS checkout - Transaction TXN-1059
+MOV-5125,PRD-0014,2026-10-02,SALE,-2,Customer POS checkout - Transaction TXN-1060
+MOV-5126,PRD-0005,2026-11-01,DAMAGED_WRITE_OFF,-2,Broken carton leak during transit
+MOV-5127,PRD-0009,2026-11-01,EXPIRED_DISPOSAL,-3,Bread passed shelf life discard
+MOV-5128,PRD-0013,2026-11-01,DAMAGED_WRITE_OFF,-2,Packaging puncture cold store
+MOV-5129,PRD-0001,2026-11-01,MANUAL_ADJUSTMENT,1,Stock audit variance correction +1
