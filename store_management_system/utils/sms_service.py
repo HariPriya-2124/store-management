@@ -92,15 +92,15 @@ def send_via_fast2sms(phone: str, message: str, api_key: str) -> Tuple[bool, str
     """
     Sends real SMS to Indian (+91) numbers via Fast2SMS Quick SMS API.
     """
-    if not api_key or not api_key.strip():
+    clean_key = api_key.strip().strip("'\"") if api_key else ""
+    if not clean_key:
         return False, "Fast2SMS API key is required. (Get a free key on fast2sms.com)", {}
 
     digits = re.sub(r"\D", "", phone)
     if digits.startswith("91") and len(digits) == 12:
         digits = digits[2:]
 
-    payload = urllib.parse.urlencode({
-        "authorization": api_key.strip(),
+    payload = json.dumps({
         "route": "q",
         "message": message,
         "language": "english",
@@ -111,7 +111,11 @@ def send_via_fast2sms(phone: str, message: str, api_key: str) -> Tuple[bool, str
     req = urllib.request.Request(
         "https://www.fast2sms.com/dev/bulkV2",
         data=payload,
-        headers={"Content-Type": "application/x-www-form-urlencoded"}
+        headers={
+            "authorization": clean_key,
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+        }
     )
 
     try:
@@ -121,8 +125,19 @@ def send_via_fast2sms(phone: str, message: str, api_key: str) -> Tuple[bool, str
                 req_id = res_data.get("request_id", "")
                 return True, f"Fast2SMS real message dispatched! (Request ID: {req_id})", res_data
             else:
-                msg = res_data.get("message", ["Unknown error"])[0] if isinstance(res_data.get("message"), list) else res_data.get("message")
+                msg = res_data.get("message", ["Unknown error"])
+                if isinstance(msg, list) and msg:
+                    msg = msg[0]
                 return False, f"Fast2SMS error: {msg}", res_data
+    except urllib.error.HTTPError as he:
+        try:
+            err_data = json.loads(he.read().decode("utf-8"))
+            msg = err_data.get("message", str(he))
+            if isinstance(msg, list) and msg:
+                msg = msg[0]
+            return False, f"Fast2SMS rejection ({he.code}): {msg}", err_data
+        except Exception:
+            return False, f"Fast2SMS rejection: HTTP {he.code} ({he.reason})", {}
     except Exception as e:
         return False, f"Fast2SMS connection error: {str(e)}", {}
 

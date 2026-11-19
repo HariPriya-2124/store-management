@@ -3,3 +3,5 @@ SMS-TEST-001,2026-11-13 10:55:00,+919876543210,Test Supplier,Restock Notice,Test
 SMS-0001,2026-11-13 12:01:06,+919441912666,Customer / Staff,Restock Notice,URGENT RESTOCK: Stock for Customer / Staff is critically low. Please dispatch replenishment batch today. - Store Operations,Telecom Gateway (Auto-fallback),Delivered,TEL-220690
 SMS-TEST-001,2026-11-13 10:55:00,+919876543210,Test Supplier,Restock Notice,Test message body content,Simulated Gateway,Delivered,TEL-999888
 SMS-TEST-001,2026-11-13 10:55:00,+919876543210,Test Supplier,Restock Notice,Test message body content,Simulated Gateway,Delivered,TEL-999888
+SMS-0002,2026-11-19 18:47:22,+916301908108,Customer / Staff,Restock Notice,URGENT RESTOCK: Stock for Customer / Staff is critically low. Please dispatch replenishment batch today. - Store Operations,Telecom Gateway (Auto-fallback),Delivered,TEL-149843
+SMS-0003,2026-11-19 19:06:21,+916301908108,Customer / Staff,Order Ready,"Hi valued customer, your store pickup order is packed and ready for collection at Counter 1. Thank you!",Simulated Telecom Gateway,Delivered,TEL-749477
