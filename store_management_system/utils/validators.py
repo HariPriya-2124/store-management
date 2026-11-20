@@ -5,13 +5,13 @@ Ensures strict data integrity, preventing invalid or malicious records.
 
 import re
 from datetime import datetime
-from typing import Optional, Tuple
+from typing import Any, Optional, Tuple
 
 EMAIL_REGEX = re.compile(r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$")
 PHONE_REGEX = re.compile(r"^\+?[0-9\s\-\(\)]{7,20}$")
 DATE_FORMAT = "%Y-%m-%d"
 
-def validate_non_empty(value: any, field_name: str) -> Tuple[bool, str]:
+def validate_non_empty(value: Any, field_name: str) -> Tuple[bool, str]:
     """Validates that a string/field is not empty or whitespace only."""
     if value is None:
         return False, f"{field_name} cannot be empty."
@@ -19,7 +19,7 @@ def validate_non_empty(value: any, field_name: str) -> Tuple[bool, str]:
         return False, f"{field_name} cannot be empty or blank."
     return True, ""
 
-def validate_positive_float(value: any, field_name: str, allow_zero: bool = False) -> Tuple[bool, str, float]:
+def validate_positive_float(value: Any, field_name: str, allow_zero: bool = False) -> Tuple[bool, str, float]:
     """Validates that a value can be converted to a positive float."""
     try:
         val = float(value)
@@ -33,7 +33,7 @@ def validate_positive_float(value: any, field_name: str, allow_zero: bool = Fals
     except (ValueError, TypeError):
         return False, f"{field_name} must be a valid numeric number.", 0.0
 
-def validate_integer(value: any, field_name: str, min_val: Optional[int] = 0) -> Tuple[bool, str, int]:
+def validate_integer(value: Any, field_name: str, min_val: Optional[int] = 0) -> Tuple[bool, str, int]:
     """Validates that a value is an integer with an optional minimum constraint."""
     try:
         val = int(value)
@@ -77,10 +77,10 @@ def validate_product_data(
     product_name: str,
     category: str,
     supplier_id: str,
-    purchase_price: any,
-    selling_price: any,
-    stock_quantity: any,
-    minimum_stock: any,
+    purchase_price: Any,
+    selling_price: Any,
+    stock_quantity: Any,
+    minimum_stock: Any,
     expiry_date: str,
     existing_product_ids: list,
     is_update: bool = False
@@ -205,7 +205,7 @@ def validate_supplier_data(
 
 def validate_sale_request(
     product_id: str,
-    quantity: any,
+    quantity: Any,
     current_stock: int,
     unit_price: float
 ) -> Tuple[bool, str, int, float]:

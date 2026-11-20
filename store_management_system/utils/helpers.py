@@ -5,7 +5,7 @@ General helper functions for data manipulation, formatting, and ID generation.
 import re
 from datetime import date, datetime
 from pathlib import Path
-from typing import Iterable, Optional
+from typing import Any, Iterable, Optional
 import pandas as pd
 from config import (
     CURRENCY_SYMBOL,
@@ -14,7 +14,7 @@ from config import (
     EXPIRY_WARNING_DAYS,
 )
 
-def format_currency(amount: any, symbol: str = CURRENCY_SYMBOL) -> str:
+def format_currency(amount: Any, symbol: str = CURRENCY_SYMBOL) -> str:
     """Formats a float or int into a currency string (e.g., ₹1,249.50)."""
     try:
         val = float(amount)
@@ -22,7 +22,7 @@ def format_currency(amount: any, symbol: str = CURRENCY_SYMBOL) -> str:
     except (ValueError, TypeError):
         return f"{symbol}0.00"
 
-def format_quantity(qty: any) -> str:
+def format_quantity(qty: Any) -> str:
     """Formats an integer quantity with commas (e.g., 1,500)."""
     try:
         val = int(qty)
@@ -30,7 +30,7 @@ def format_quantity(qty: any) -> str:
     except (ValueError, TypeError):
         return "0"
 
-def safe_float(val: any, default: float = 0.0) -> float:
+def safe_float(val: Any, default: float = 0.0) -> float:
     """Safely converts a value to float without throwing."""
     try:
         if pd.isna(val):
@@ -39,7 +39,7 @@ def safe_float(val: any, default: float = 0.0) -> float:
     except (ValueError, TypeError):
         return default
 
-def safe_int(val: any, default: int = 0) -> int:
+def safe_int(val: Any, default: int = 0) -> int:
     """Safely converts a value to integer without throwing."""
     try:
         if pd.isna(val):

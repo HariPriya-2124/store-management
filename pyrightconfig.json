@@ -1,7 +1,8 @@
 {
   "include": [
     "store_management_system",
-    "main.py"
+    "main.py",
+    "app.py"
   ],
   "exclude": [
     "**/__pycache__",
